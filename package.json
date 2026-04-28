@@ -1,6 +1,6 @@
 {
   "name": "a11y-widget",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Widget d'accessibilité",
   "type": "module",
   "main": "./dist/accessibility-widget.umd.cjs",
@@ -48,7 +48,7 @@
     "@types/node": "^24.12.2",
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
-    "@vitejs/plugin-react": "^6.0.1",
+    "@vitejs/plugin-react": "^4.7.0",
     "eslint": "^10.2.1",
     "eslint-plugin-react-hooks": "^7.1.1",
     "eslint-plugin-react-refresh": "^0.5.2",
@@ -57,7 +57,7 @@
     "react-dom": "^19.2.5",
     "typescript": "~6.0.2",
     "typescript-eslint": "^8.58.2",
-    "vite": "^4.0.0",
+    "vite": "^6.4.2",
     "vite-plugin-dts": "^4.5.4"
   }
 }
