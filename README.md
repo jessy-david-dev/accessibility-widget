@@ -5,7 +5,7 @@ Widget d'accessibilité React aligné **RGAA 4.1 / WCAG 2.1 AA**, conçu pour re
 ## Installation
 
 ```bash
-npm install accessibility-widget
+npm install a11y-widget
 ```
 
 ## Usage
