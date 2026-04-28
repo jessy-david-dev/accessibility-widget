@@ -91,7 +91,7 @@ Le widget est lui-même conforme RGAA :
 import { useA11yStore, useA11yEffects } from "accessibility-widget";
 
 function MonWidget() {
-  const { state, dispatch } = useA11yStore("mes-prefs");
+  const { state, dispatch } = useA11yStore("a11y-widget-prefs");
   useA11yEffects(state);
 
   return (
