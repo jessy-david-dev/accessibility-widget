@@ -1,5 +1,5 @@
 {
-  "name": "accessibility-widget",
+  "name": "a11y-widget",
   "version": "1.0.0",
   "description": "Widget d'accessibilité",
   "type": "module",
