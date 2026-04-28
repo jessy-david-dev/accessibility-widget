@@ -1,5 +1,8 @@
 # accessibility-widget
 
+[![npm](https://img.shields.io/npm/v/a11y-widget)](https://www.npmjs.com/package/a11y-widget)
+[![license](https://img.shields.io/npm/l/a11y-widget)](./LICENSE)
+
 Widget d'accessibilité React aligné **RGAA 4.1 / WCAG 2.1 AA**, conçu pour rendre les sites et services numériques accessibles à toutes et à tous.
 
 ## Installation
