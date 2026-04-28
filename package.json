@@ -1,0 +1,63 @@
+{
+  "name": "accessibility-widget",
+  "version": "1.0.0",
+  "description": "Widget d'accessibilité",
+  "type": "module",
+  "main": "./dist/accessibility-widget.umd.cjs",
+  "module": "./dist/accessibility-widget.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/accessibility-widget.js",
+      "require": "./dist/accessibility-widget.umd.cjs",
+      "types": "./dist/index.d.ts"
+    },
+    "./dist/accessibility-widget.css": "./dist/accessibility-widget.css"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "accessibility",
+    "accessibilite",
+    "a11y",
+    "rgaa",
+    "wcag",
+    "widget",
+    "react"
+  ],
+  "author": "Jessy DAVID - https://jessy-david.dev",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jessy-david-dev/accessibility-widget"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "prepublishOnly": "pnpm build"
+  },
+  "peerDependencies": {
+    "react": ">=18",
+    "react-dom": ">=18"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/node": "^24.12.2",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.1",
+    "eslint": "^10.2.1",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "eslint-plugin-react-refresh": "^0.5.2",
+    "globals": "^17.5.0",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5",
+    "typescript": "~6.0.2",
+    "typescript-eslint": "^8.58.2",
+    "vite": "^4.0.0",
+    "vite-plugin-dts": "^4.5.4"
+  }
+}
