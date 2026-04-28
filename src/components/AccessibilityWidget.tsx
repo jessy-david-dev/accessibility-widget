@@ -1,4 +1,5 @@
 import { useState, useRef, useCallback } from "react";
+import { AccessibilityIcon } from "@radix-ui/react-icons";
 import { useA11yStore } from "../store";
 import { useA11yEffects } from "../useA11yEffects";
 import { AccessibilityPanel } from "./AccessibilityPanel";
@@ -87,16 +88,7 @@ export function AccessibilityWidget({
         aria-haspopup="dialog"
         onClick={() => setOpen((v) => !v)}
       >
-        <svg
-          aria-hidden="true"
-          focusable="false"
-          viewBox="0 0 24 24"
-          width="28"
-          height="28"
-          fill="currentColor"
-        >
-          <path d="M12 2a2 2 0 1 1 0 4 2 2 0 0 1 0-4zm8 5H4a1 1 0 0 0 0 2h3.3l-1.76 7.04A1 1 0 0 0 6.5 17h.06l2.44-.81V22a1 1 0 0 0 2 0v-4h2v4a1 1 0 0 0 2 0v-5.81l2.44.81h.06a1 1 0 0 0 .96-1.25L16.7 9H20a1 1 0 0 0 0-2z" />
-        </svg>
+        <AccessibilityIcon aria-hidden="true" width="28" height="28" />
         {activeCount > 0 && (
           <span
             className="a11y-badge"
